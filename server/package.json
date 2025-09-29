@@ -1,0 +1,40 @@
+{
+  "name": "gaudteqh-electronics-crm-server",
+  "version": "1.0.0",
+  "description": "Backend API for Gaudteqh Electronics CRM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.2",
+    "supertest": "^6.3.3",
+    "eslint": "^8.47.0"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "crm",
+    "electronics",
+    "express",
+    "mongodb"
+  ],
+  "author": "teqhgaud",
+  "license": "MIT"
+}
